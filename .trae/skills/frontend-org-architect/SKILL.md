@@ -34,5 +34,7 @@ description: "前端组织架构师 (顶层大脑)。统管【战略、业务、
 *   **调用 [tech-efficiency-architect]**: 当战略落地需要架构、基建、AI 工具支持时。
 
 ## 常用工具与文档 (References & Assets)
+*   [Business_Line_Lead_Execution_Standards.md](references/Business_Line_Lead_Execution_Standards.md): 业务线负责人执行标准 (SOP/Checklist)
+*   [Managing_Business_Line_Leads_Guide.md](references/Managing_Business_Line_Leads_Guide.md): 业务线负责人管理指南 (How to manage managers)
 *   [Management_Evolution_Methodology.md](references/Management_Evolution_Methodology.md): 前端管理进化论核心参考 (基于前端规模)
 *   *(后续补充: Executive_Report_Template.md, Crisis_PR_Template.md)*
