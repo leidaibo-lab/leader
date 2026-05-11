@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Leader"
+  short_description: "前端团队规模化管理思考与实施方案"
+  brand_color: "#FD3610"
+  default_prompt: "Use $frontend-leader to extract frontend leadership thinking and draft a team scaling plan."
+policy:
+  allow_implicit_invocation: true
