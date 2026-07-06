@@ -17,17 +17,17 @@
 
 | Skill | 入口 | 适用场景 |
 | --- | --- | --- |
-| frontend-leadership-frontend-leader | `frontend-leadership/frontend-leader/SKILL.md` | 前端负责人管理规划、30+ 团队治理、业务线负责人机制、副手梯队、工程底座、AI 开发治理闭环 |
+| frontend-leadership-frontend-leader | `frontend-leadership/frontend-leader/SKILL.md` | 前端负责人管理规划、30+ 团队治理、业务线负责人机制、副手梯队、工程底座、AI 开发治理闭环、前端负责人向产研 AI 协作架构推动者成长 |
 | frontend-leadership-org-architect | `frontend-leadership/org-architect/SKILL.md` | 前端组织架构、业务线划分、向上汇报、价值表达、危机处理、组织顶层设计 |
 | frontend-leadership-people-culture-manager | `frontend-leadership/people-culture-manager/SKILL.md` | 招聘、面试、绩效、1v1、人才梯队、团队稳定性、临时调动 |
-| frontend-leadership-tech-efficiency-architect | `frontend-leadership/tech-efficiency-architect/SKILL.md` | 架构、基建、组件库、监控稳定性、AI 效能、质量治理、技术债 |
+| frontend-leadership-tech-efficiency-architect | `frontend-leadership/tech-efficiency-architect/SKILL.md` | 架构、基建、组件库、监控稳定性、AI 效能、质量治理、技术债、AI 驱动产研协作架构与治理 |
 
 ## 公司公共类
 
 | Skill | 入口 | 适用场景 |
 | --- | --- | --- |
-| company-public-skill-governance | `company-public/skill-governance/SKILL.md` | Skill 创建规范、目录质量校验、文档归属整理 |
-| company-public-wf-openspec-mode | `company-public/wf-openspec-mode/SKILL.md` | OpenSpec/SDD 工作流、proposal/spec/tasks、模型选择、复杂变更前的方案和归档 |
+| company-public-skill-governance | `company-public/skill-governance/SKILL.md` | Skill 创建规范、目录质量校验、文档归属整理、对话共识建议录入 |
+| company-public-wf-openspec-mode | `company-public/wf-openspec-mode/SKILL.md` | AI 落地到真实项目的 OpenSpec/SDD 思路参考、proposal/spec/tasks 机制理解、模型选择；当前 leader 项目不作为强制实践工作流 |
 
 ## 更新要求
 

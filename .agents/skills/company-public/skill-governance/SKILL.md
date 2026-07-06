@@ -18,6 +18,7 @@ metadata:
 - `metadata.pattern` 必须等于 `<顶级目录>/<技能目录>`。
 - 正文以中文为主，保留必要英文术语可以，但不要让英文成为主体。
 - 详细资料放 `references/`，模板放 `templates/`，可复用静态表单或附件放 `assets/`。
+- 规划、架构、管理方法论类讨论中，如果形成可复用共识，应主动给出“建议录入”清单；用户确认后再写入对应 Skill。
 
 ## 前端负责人文档归属
 
@@ -26,7 +27,13 @@ metadata:
 - 招聘、面试、1v1、绩效、人才梯队、人员调动稳定性：归入 `frontend-leadership/people-culture-manager`。
 - 架构、基建、AI 效能、组件库、监控稳定性、基础资产推广：归入 `frontend-leadership/tech-efficiency-architect`。
 - Skill 目录规范、单体 Skill 设计、可插拔 Skill 架构：归入 `company-public/skill-governance`。
-- OpenSpec、SDD、模型选择、proposal/spec/tasks 工作流：归入 `company-public/wf-openspec-mode`。
+- AI 落地到真实项目的 OpenSpec/SDD 思路、模型选择和负责人评估：归入 `company-public/wf-openspec-mode`；当前 leader 项目不把它作为强制实践工作流。
+
+## 必读参考
+
+- 需要判断对话中的哪些共识应主动沉淀到 Skill 时，读取 [conversation-to-skill-capture.md](references/conversation-to-skill-capture.md)。
+- 需要设计单个 Skill 的内容规范时，读取 [single-skill-specification.md](references/single-skill-specification.md)。
+- 需要设计可插拔 AI Skill 架构时，读取 [pluggable-ai-skills-architecture.md](references/pluggable-ai-skills-architecture.md)。
 
 ## 更新要求
 

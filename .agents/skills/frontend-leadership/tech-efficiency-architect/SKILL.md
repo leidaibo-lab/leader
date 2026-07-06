@@ -44,6 +44,7 @@ metadata:
 ## 常用工具与文档 (References & Assets)
 *   [frontend-ai-efficiency-framework.md](references/frontend-ai-efficiency-framework.md): AI 效能框架
 *   [ai-strategy-roadmap.md](references/ai-strategy-roadmap.md): AI 战略路线图
+*   [ai-product-rd-collaboration-architecture.md](references/ai-product-rd-collaboration-architecture.md): AI 驱动产研协作架构、沟通成本治理、质量反推和基础治理
 *   [observability-and-stability-governance.md](references/observability-and-stability-governance.md): Sentry 环境区分与稳定性治理
 *   [base-asset-playbook.md](references/base-asset-playbook.md): 基础资产建设与业务推行
 *   *(后续补充: Tech_Stack_Radar.md, Architecture_Design_Template.md)*

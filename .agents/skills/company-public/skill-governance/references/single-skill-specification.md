@@ -17,9 +17,11 @@
 ```
 
 **红线规定**：
-`references/` 目录下**绝对不允许**存放全公司通用的工程规范（如 React 编码规范）或部门级的通用资源。
-- 公司级规范必须收敛在 `.agents/skills/company-public/rules/` 中。
-- 部门级通用资源必须收敛在对应顶级目录的公共 Skill 中（如 `.agents/skills/frontend-leadership/frontend-leader/` 或未来新增的 `<部门>/<common-skill>/`）。
+`references/` 目录下不应混入与本 Skill 核心职责无关的公司项目工程规范（如 React 编码规范）。
+
+- 当前 leader 项目聚焦负责人规划与 Skill 资产沉淀，不维护公司项目工程规范目录。
+- 如果未来在真实业务项目中需要公司级工程规范，应在业务项目或公司级规范仓库中单独维护，不反向进入当前 leader 项目。
+- 部门级通用资源应收敛在对应顶级目录的公共 Skill 中（如 `.agents/skills/frontend-leadership/frontend-leader/` 或未来新增的 `<部门>/<common-skill>/`）。
 
 ## 2. SKILL.md 编写范式：面向接口与组装 (Stateless & Composable)
 
@@ -48,7 +50,7 @@ description: [简短的一句话描述，说明在什么场景下调用该专家
 
 # 🚨 工作流适配接口 (Workflow Adapter)
 [这是实现可插拔的核心。声明如何根据用户的上下文改变输出格式。例如：]
-1. **全局规范遵循**：请结合 `.agents/skills/company-public/rules/` 来规范你的代码输出。
+1. **全局规范遵循**：如果目标业务项目存在公司级工程规范或规则 Skill，请结合目标项目的规范来约束代码输出；当前 leader 项目不维护公司项目工程规范。
 2. **工作流输出 (如 SDD)**：
    - **如果**用户处于 SDD/OpenSpec 工作流中，请结合 `.agents/skills/company-public/wf-openspec-mode` 规范你的输出。
    - **如果**未指定工作流，请直接使用 Markdown 列表输出你的核心诊断结论。

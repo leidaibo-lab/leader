@@ -1,28 +1,26 @@
 ---
 name: "company-public-wf-openspec-mode"
-description: "OpenSpec 工作流外壳（融合 Superpowers 静态约束）。当用户使用 /opsx:propose、/opsx:apply、/opsx:archive 或进行 spec 驱动开发时调用。前端团队默认开启，后端/跨端可选。"
+description: "OpenSpec/SDD 思路参考。用于前端负责人理解 AI 如何落地到真实项目流程、评估 proposal/spec/tasks/review 等机制，不作为当前 leader 项目的强制实践工作流。"
 metadata:
   pattern: "company-public/wf-openspec-mode"
   author: "company-public"
   version: "0.1.0"
 ---
 
-# OpenSpec 工作流模式（融合版）
+# OpenSpec/SDD 思路参考
 
-> **设计哲学**：业务知识是核心资产，工作流是可替换外壳。本 Skill 是"外壳"——
-> 它把 Superpowers 中**5 条最有价值的静态约束**固化进 OpenSpec 的产出物，
-> 让全员零额外学习成本拿到 80% 的 Superpowers 价值。
+> **设计哲学**：业务知识是核心资产，工作流是可替换外壳。本 Skill 在当前 leader 项目中只作为负责人理解 AI 落地到项目流程的参考模型，不要求在本项目生成完整 proposal/spec/tasks/review 资产。
 
 ## 适用范围
 
-| 场景 | 是否启用 | 说明 |
+| 场景 | 当前项目处理方式 | 说明 |
 |---|---|---|
-| 纯前端开发（≥ S 级变更） | ✅ 默认开启 | 全员标准流程 |
-| 前端 hotfix（< 50 行） | ⚠️ 仅启用 review.md | 轻量路径 |
-| 前端 POC / A/B 实验 | ❌ 不启用 | 抛弃式代码无需流程 |
-| 跨端 / 全栈复杂模块 | ✅ 开启 + 叠加 Superpowers | 由 TL 决定 |
+| 负责人规划 AI 落地路径 | ✅ 参考 | 用于理解 SDD 如何约束 AI 研发流程 |
+| 讨论 proposal/spec/tasks/review 机制 | ✅ 参考 | 输出方案、判断边界、拆解价值，不强制生成文件 |
+| 当前 leader 项目文档整理 | ❌ 不启用实践流 | 直接沉淀到 Skill / references 即可 |
+| 真实业务项目复杂变更 | ⚠️ 可借鉴 | 需要在业务项目内另行补齐模板、校验器和团队执行约定 |
 
-## 核心工作流
+## 参考工作流
 
 ```text
 /opsx:propose <idea>
@@ -45,12 +43,12 @@ metadata:
 
 /opsx:archive
    ↓
-   validator 全量校验 → 通过则归档
+validator 全量校验 → 通过则归档
 ```
 
-## 5 + 2 静态约束清单
+## 5 + 2 静态约束参考
 
-### 核心 5 条（必启用）
+### 核心 5 条（真实业务项目可考虑）
 
 | # | 约束名 | 源 Superpowers Skill | 落地文件 | 强制度 |
 |---|---|---|---|---|
@@ -67,28 +65,27 @@ metadata:
 | ⑥ | Anti-Pattern 自检 | `using-superpowers` | `references/anti-patterns.md` | 推荐 |
 | ⑦ | Review 反馈留痕 | `receiving-code-review` | `review.md`（反馈表） | 推荐 |
 
-## AI 行为指令
+## 当前项目 AI 行为指令
 
-当 AI 在 OpenSpec 流程中工作时，必须：
+当 AI 在当前 leader 项目中讨论 OpenSpec/SDD 时：
 
-1. **生成 proposal 时**：自动套用 `templates/proposal.md`，识别 type 字段（feature/bugfix/refactor）
-2. **生成 spec 时**：自动套用 `templates/spec.md`，强制填充 `## 2. 完成定义 (DoD)` section
-3. **生成 tasks 时**：自动套用 `templates/tasks.md`，遵守"原子性 + 测试前置"双约束
-4. **bugfix 类型**：额外生成 `bugfix-hypothesis.md`，4 个 Phase 全部填写
-5. **archive 前**：自动跑 `validators/superpowers-constraints.js`，任何一项不通过则阻止归档
-6. **遇到偏离 spec 的实现**：必须先回写 `specs/spec.md`，再继续
+1. 只把 OpenSpec/SDD 作为 AI 落地到真实项目流程的参考框架。
+2. 不要求在当前项目创建完整 `specs/`、`tasks.md`、`review.md` 或 validator。
+3. 如果用户明确要求在业务项目实践，再根据目标项目补齐 `templates/spec.md`、`templates/tasks.md` 和校验器。
+4. 输出时重点解释负责人需要理解的价值：需求契约、任务拆解、验证前置、Review 留痕、归档复盘。
+5. 不把当前 leader 项目的 Skill 资产整理误判为 OpenSpec 执行流。
 
 ## 反向使用（当 AI 不该启用本 Skill 时）
 
 明确禁用本 Skill 的场景：
+- 当前 leader 项目中普通 Skill / reference 整理。
 - 设计系统/UI Kit 的视觉迭代（snapshot 测试已足够）
 - 营销活动页/落地页（生命周期短，测试成本 > 收益）
 - 文档/注释/类型定义的纯编辑改动
 
-> AI 在以上场景应明确告知用户："此变更建议绕过 OpenSpec 流程，直接 commit"。
+> AI 在以上场景应明确告知用户："当前不需要套 OpenSpec/SDD 实践流，直接按项目 Skill 归属沉淀即可"。
 
 ## 治理与版本
 
-- 本 Skill 由**架构组**维护，业务团队不得直接修改 `templates/` 与 `validators/`
-- 上游 Superpowers 升级时，季度评审 → 决定是否同步更新约束
-- 约束源映射详见 `references/constraint-mapping.md`
+- 本 Skill 当前由负责人规划视角维护，只保留 SDD/OpenSpec 的方法参考。
+- 若未来要在真实业务项目落地，应迁移为业务项目内的可执行工作流，并补齐模板、校验器和执行约定。

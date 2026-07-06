@@ -46,6 +46,7 @@ metadata:
 - 需要讲需求宣讲时间窗、进度可视化和责任留底时，读取 [delivery-accountability-and-timeboxing.md](references/delivery-accountability-and-timeboxing.md)。
 - 需要直接套用近期案例样本来写记录时，读取 [skill-growth-casebook.md](references/skill-growth-casebook.md)。
 - 需要讲AI团队级提效、AI开发闭环和责任边界时，读取 [ai-development-loop.md](references/ai-development-loop.md)。
+- 需要讲前端负责人如何在 AI 时代从前端实践成长为产研 AI 协作架构推动者时，读取 [ai-collaboration-leadership-growth.md](references/ai-collaboration-leadership-growth.md)。
 - 需要输出未来1-2年规划、阶段目标、实施方案时，读取 [implementation-roadmap.md](references/implementation-roadmap.md)。
 
 ## 推荐输出结构

@@ -45,11 +45,8 @@
     ├── skill-governance/                    # Skill 创建与治理规范
     │   ├── SKILL.md
     │   └── references/
-    ├── wf-openspec-mode/                    # OpenSpec/SDD 工作流
+    ├── wf-openspec-mode/                    # OpenSpec/SDD 思路参考
     │   └── SKILL.md       
-    └── rules/                               # 第二层：全局规则 (供其他 Skill 挂载)
-        ├── react-rules.md     
-        └── git-rules.md       
 ```
 
 ---
@@ -65,5 +62,5 @@
 当前需要整理“30+ 前端团队架构治理和线上闭环”时：
 1. 先读取 `.agents/skills/company-public/skill-governance/SKILL.md` 判断文档归属。
 2. 再按问题性质读取 `.agents/skills/frontend-leadership/org-architect` 或 `.agents/skills/frontend-leadership/tech-efficiency-architect`。
-3. 如果涉及 OpenSpec/SDD 流程，再叠加 `.agents/skills/company-public/wf-openspec-mode`。
+3. 如果涉及 AI 如何落地到真实业务项目的 SDD/OpenSpec 思路，再参考 `.agents/skills/company-public/wf-openspec-mode`；当前 leader 项目不在本仓库执行完整工作流。
 4. 工作流可以替换，但前端负责人治理知识资产保持在 `frontend-leadership` 下稳定演进。
