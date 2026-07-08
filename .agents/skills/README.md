@@ -20,7 +20,7 @@
 | frontend-leadership-frontend-leader | `frontend-leadership/frontend-leader/SKILL.md` | 前端负责人管理规划、30+ 团队治理、业务线负责人机制、副手梯队、工程底座、AI 开发治理闭环、前端负责人向产研 AI 协作架构推动者成长 |
 | frontend-leadership-org-architect | `frontend-leadership/org-architect/SKILL.md` | 前端组织架构、业务线划分、向上汇报、价值表达、危机处理、组织顶层设计 |
 | frontend-leadership-people-culture-manager | `frontend-leadership/people-culture-manager/SKILL.md` | 招聘、面试、绩效、1v1、人才梯队、团队稳定性、临时调动 |
-| frontend-leadership-tech-efficiency-architect | `frontend-leadership/tech-efficiency-architect/SKILL.md` | 架构、基建、组件库、监控稳定性、AI 效能、质量治理、技术债、AI 驱动产研协作架构与治理 |
+| frontend-leadership-tech-efficiency-architect | `frontend-leadership/tech-efficiency-architect/SKILL.md` | 架构、基建、组件库、监控稳定性、AI 效能、质量治理、技术债、AI 驱动产研协作架构与治理、AI 驱动产研组织升级操作系统 |
 
 ## 公司公共类
 
