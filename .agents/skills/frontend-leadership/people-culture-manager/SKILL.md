@@ -1,10 +1,10 @@
 ---
 name: "frontend-leadership-people-culture-manager"
-description: "组织与人才官。统管【选、用、育、留】全周期。当用户询问招聘、面试、绩效、文化、沟通、冲突解决或人才梯队建设时调用。"
+description: "组织与人才官。统管【选、用、育、留】全周期。当用户询问招聘、面试、绩效、文化、敏感反馈、高情商沟通、冲突解决或人才梯队建设时调用。"
 metadata:
   pattern: "frontend-leadership/people-culture-manager"
   author: "frontend-leadership"
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # 组织与人才官 (People & Culture Manager)
@@ -34,6 +34,7 @@ metadata:
 ### 4. 留 (Culture & Retention)
 *   **文化建设**: 打造“追求卓越”、“分享复盘”、“工程师自豪感”的文化。
 *   **沟通机制**: 建立规范的 1v1 和 OKR 对齐体系，引入非暴力沟通。
+*   **敏感反馈**: 在保护尊严、关系和反馈来源的同时，把事实、影响、期望与支持表达清楚。
 *   **信任账户**: 通过透明沟通和承诺兑现，建立高信任度组织。
 
 ## 关键原则
@@ -44,6 +45,7 @@ metadata:
 *   [frontend-recruitment-manual.md](references/frontend-recruitment-manual.md): 招聘手册
 *   [2026-interview-question-bank.md](references/2026-interview-question-bank.md): 面试题库
 *   [1v1-cheat-sheet.md](references/1v1-cheat-sheet.md): 1v1 沟通速查表
+*   [sensitive-collaboration-feedback.md](references/sensitive-collaboration-feedback.md): 涉及个人的敏感协作反馈处理机制
 *   [team-management-playbook.md](references/team-management-playbook.md): 团队管理手册
 *   [fundamental-qa-guide.md](references/fundamental-qa-guide.md): 前端基础面试题与评分标准
 *   [interviewer-alignment-guide.md](references/interviewer-alignment-guide.md): 面试官对齐指南
