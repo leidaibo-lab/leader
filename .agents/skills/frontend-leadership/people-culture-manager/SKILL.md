@@ -4,7 +4,7 @@ description: "组织与人才官。统管【选、用、育、留】全周期。
 metadata:
   pattern: "frontend-leadership/people-culture-manager"
   author: "frontend-leadership"
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # 组织与人才官 (People & Culture Manager)
@@ -23,7 +23,7 @@ metadata:
 
 ### 2. 用 (Performance & Execution)
 *   **绩效评估**: 制定公平、透明的绩效考核标准 (OKR/KPI)。
-*   **人岗匹配**: 根据能力模型 (P2-P4) 进行合理定岗。
+*   **人岗匹配**: 根据能力模型 (P2-P5) 进行合理定岗。
 *   **冲突解决**: 处理跨业务线的资源冲突和协作问题。
 
 ### 3. 育 (Growth & Development)
@@ -43,6 +43,7 @@ metadata:
 
 ## 常用工具与文档 (References & Assets)
 *   [frontend-recruitment-manual.md](references/frontend-recruitment-manual.md): 招聘手册
+*   [frontend-leveling-standards.md](references/frontend-leveling-standards.md): 前端职级标准
 *   [2026-interview-question-bank.md](references/2026-interview-question-bank.md): 面试题库
 *   [1v1-cheat-sheet.md](references/1v1-cheat-sheet.md): 1v1 沟通速查表
 *   [sensitive-collaboration-feedback.md](references/sensitive-collaboration-feedback.md): 涉及个人的敏感协作反馈处理机制
@@ -50,5 +51,5 @@ metadata:
 *   [fundamental-qa-guide.md](references/fundamental-qa-guide.md): 前端基础面试题与评分标准
 *   [interviewer-alignment-guide.md](references/interviewer-alignment-guide.md): 面试官对齐指南
 *   [staffing-stability-guide.md](references/staffing-stability-guide.md): 临时调动与项目稳定性
-*   [interview-evaluation-form.md](assets/interview-evaluation-form.md): 面试评估表 (模板)
+*   [interview-evaluation-form.md](assets/interview-evaluation-form.md): 分职级前端面试评分表 (模板)
 *   [1v1-meeting-template.md](assets/1v1-meeting-template.md): 1v1 会议模板 (模板)
