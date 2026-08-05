@@ -4,7 +4,7 @@ description: "技术与效能官。统管【架构、基建、AI、质量】全�
 metadata:
   pattern: "frontend-leadership/tech-efficiency-architect"
   author: "frontend-leadership"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # 技术与效能官 (Tech & Efficiency Architect)
