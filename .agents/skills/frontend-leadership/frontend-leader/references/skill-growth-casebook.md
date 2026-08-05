@@ -59,3 +59,9 @@
 - 动作: 把 AI 放到需求澄清、代码审查、自测、复盘、知识库更新里。
 - 结果/证据: 记录覆盖环节、节省时间、Review 问题减少和知识沉淀量。
 - 可沉淀: `frontend-leadership-frontend-leader` 和 `frontend-leadership-tech-efficiency-architect` 的 AI 治理参考。
+
+## 案例 7: Node.js、pnpm 与 CI 构建环境统一
+
+- 建设内容: 统一团队 Node.js、pnpm 及 CI 构建环境，提升项目安装、构建和发布流程的一致性与可复现性，降低环境差异带来的时间成本。
+- 当前落地: `oms-web` 已固定 Node.js 24.19.0 和 pnpm 11.20.0，并完成项目侧版本校验和锁文件更新。
+- 证据: 提交 `d81bd4a`；冻结安装、lint、类型检查和 pre-push 校验通过。
